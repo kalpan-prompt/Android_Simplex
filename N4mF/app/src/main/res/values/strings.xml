@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">N2mF</string>
+    <string name="abbreviation_rs">\u20B9</string>
+    <string name="fruit_title_ul"><u>Fruit</u></string>
+    <string name="qty_title_ul"><u>Qty</u></string>
+    <string name="rate_title_ul"><u>Rate</u></string>
+    <string name="lbl_requirements">Requirements</string>
+    <string name="lbl_suggestion">Suggestion</string>
+    <string name="lbl_clear">Clear</string>
+    <string name="lbl_fruit_nutrient_suggestion">Fruit nutrient suggestion</string>
+    <string name="msg_erf">Enter requirement first...</string>
+    <string name="msg_eod">Enter only digit in</string>
+    <string name="msg_epd">Enter proper digit in</string>
+    <string name="msg_emt0v">Enter more then 0 value for</string>
+    <string name="msg_dia_suggestion">Wait for moment, while generating your suggested nutrient from fruits...</string>
+    <string name="msg_ugs_pta">Unable to generate your suggested nutrient from fruits...\nPlease try again!!!</string>
+</resources>
