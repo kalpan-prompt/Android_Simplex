@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/llNutrient"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/act_lay_margin"
+    android:orientation="vertical"
+    android:weightSum="2"
+    tools:context="android.prompt.n2mf.main.Act_Nutrient">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtRequirements"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textCapSentences"
+            android:padding="@dimen/act_txt_padding"
+            android:text="@string/lbl_requirements"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_margin="2dp"
+            android:background="@android:color/darker_gray" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="@dimen/act_lay_margin_right_left"
+                android:layout_weight="0.5"
+                android:orientation="horizontal"
+                android:padding="@dimen/act_lay_padding">
+
+                <TextView
+                    android:id="@+id/txtCalories"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="0.45"
+                    android:gravity="left"
+                    android:inputType="textCapSentences"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/edtCalories"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/act_edt_margin_left"
+                    android:layout_weight="0.55"
+                    android:ems="10"
+                    android:inputType="numberSigned"
+                    android:maxLength="4"
+                    android:maxLines="1" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/act_lay_margin_right_left"
+                android:layout_weight="0.5"
+                android:orientation="horizontal"
+                android:padding="@dimen/act_lay_padding">
+
+                <TextView
+                    android:id="@+id/txtProtein"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="0.45"
+                    android:gravity="left"
+                    android:inputType="textCapSentences"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/edtProtein"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/act_edt_margin_left"
+                    android:layout_weight="0.55"
+                    android:ems="10"
+                    android:inputType="numberDecimal"
+                    android:maxLength="6"
+                    android:maxLines="1" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="@dimen/act_lay_margin_right_left"
+                android:layout_weight="0.5"
+                android:orientation="horizontal"
+                android:padding="@dimen/act_lay_padding">
+
+                <TextView
+                    android:id="@+id/txtVitaminsA"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="0.45"
+                    android:gravity="left"
+                    android:inputType="textCapSentences"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/edtVitaminsA"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/act_edt_margin_left"
+                    android:layout_weight="0.55"
+                    android:ems="10"
+                    android:inputType="numberSigned"
+                    android:maxLength="4"
+                    android:maxLines="1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/act_lay_margin_right_left"
+                android:layout_weight="0.5"
+                android:orientation="horizontal"
+                android:padding="@dimen/act_lay_padding">
+
+                <TextView
+                    android:id="@+id/txtVitaminsC"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="0.45"
+                    android:gravity="left"
+                    android:inputType="textCapSentences"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/edtVitaminsC"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/act_edt_margin_left"
+                    android:layout_weight="0.55"
+                    android:ems="10"
+                    android:inputType="numberDecimal"
+                    android:maxLength="6"
+                    android:maxLines="1" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnSuggest"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="0.25dp"
+                android:text="@string/lbl_suggestion"
+                android:layout_weight="0.5"
+                android:maxLines="1"
+                android:padding="2dp" />
+
+            <Button
+                android:id="@+id/btnClear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/act_lay_margin_right_left"
+                android:layout_weight="0.5"
+                android:maxLines="1"
+                android:text="@string/lbl_clear"
+                android:padding="@dimen/act_btn_padding" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txtSuggestion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textCapSentences"
+            android:padding="@dimen/act_txt_padding"
+            android:text="@string/lbl_fruit_nutrient_suggestion"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+        <View
+            android:id="@+id/viewSeparatorSuggestion"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_margin="@dimen/act_view_margin"
+            android:background="@android:color/darker_gray"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lvNutrient"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+
+</LinearLayout>

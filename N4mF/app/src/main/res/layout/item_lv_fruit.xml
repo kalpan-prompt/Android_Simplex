@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/llNutrient"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:padding="@dimen/itm_lay_padding"
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_weight="0.7"
+            android:layout_width="0dp"
+            android:textStyle="bold"
+            android:gravity="left"
+            android:textColor="@android:color/black"
+            android:layout_marginRight="@dimen/itm_txt_margin_right_left"
+            android:layout_gravity="center_vertical"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtName" />
+        <TextView
+            android:layout_weight="0.3"
+            android:layout_width="0dp"
+            android:gravity="right"
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="@dimen/itm_txt_margin_right_left"
+            android:layout_gravity="center_vertical"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtRate" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:padding="@dimen/itm_lay_padding"
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_weight="0.5"
+            android:layout_width="0dp"
+            android:layout_marginRight="@dimen/itm_txt_margin_right_left"
+            android:gravity="left"
+            android:textColor="@android:color/black"
+            android:layout_gravity="center_vertical"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtCalories" />
+
+        <TextView
+            android:layout_weight="0.5"
+            android:layout_width="0dp"
+            android:gravity="right"
+            android:layout_marginLeft="@dimen/itm_txt_margin_right_left"
+            android:textColor="@android:color/black"
+            android:layout_gravity="center_vertical"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtProtein" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:padding="@dimen/itm_lay_padding"
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal">
+    <TextView
+        android:layout_weight="0.5"
+        android:layout_width="0dp"
+        android:layout_marginRight="@dimen/itm_txt_margin_right_left"
+        android:gravity="left"
+        android:textColor="@android:color/black"
+        android:layout_gravity="center_vertical"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtVitA" />
+    <TextView
+        android:layout_weight="0.5"
+        android:layout_width="0dp"
+        android:gravity="right"
+        android:layout_marginLeft="@dimen/itm_txt_margin_right_left"
+        android:textColor="@android:color/black"
+        android:layout_gravity="center_vertical"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtVitC" />
+</LinearLayout>
+</LinearLayout>
